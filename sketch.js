@@ -10,7 +10,7 @@ function setup() {
   createCanvas(500,800);
   engine= Engine.create()
  world=engine.world
-ground= new Ground(250,790,500)
+ground= new Ground(250,790,5000)
 
  for(var i=0;i<=width;i=i+80){
 division.push(new Division(i,650))
