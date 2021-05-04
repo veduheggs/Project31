@@ -66,7 +66,7 @@ function draw() {
       }
     ground.display()
 
-    if(frameCount%60==0){
+    if(frameCount%5==0){
      ball.push(new Ball(random(10,490),0))
     }
          
